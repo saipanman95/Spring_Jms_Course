@@ -1,0 +1,47 @@
+buildscript {
+	ext {
+		springBootVersion = '2.0.0.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+group = 'com.mdrsolutions'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter:2.0.0.RELEASE')
+	compile('org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE')
+	compile('org.springframework.boot:spring-boot-starter-activemq:2.0.0.RELEASE')
+	compile('org.springframework.boot:spring-boot-starter-tomcat:2.0.0.RELEASE')
+
+
+    compile('com.thoughtworks.xstream:xstream:1.4.10')
+    compile('org.springframework:spring-oxm:5.0.4.RELEASE')
+	//compile('javax.jms:javax.jms-api:2.0.1')
+
+
+	compile('javax.servlet:jstl:1.2')
+	compile('org.apache.tomcat.embed:tomcat-embed-jasper:9.0.6')
+	compile('org.eclipse.jdt.core.compiler:ecj:4.6.1')
+	compile('org.webjars:bootstrap:4.0.0')
+	compile('org.webjars:jquery:3.3.1')
+
+	compile('org.apache.activemq:activemq-broker')
+	compile('com.fasterxml.jackson.core:jackson-databind')
+	testCompile('org.springframework.boot:spring-boot-starter-test:2.0.0.RELEASE')
+}
