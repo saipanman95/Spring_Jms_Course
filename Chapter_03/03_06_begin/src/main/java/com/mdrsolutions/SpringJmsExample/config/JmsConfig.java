@@ -14,7 +14,7 @@ import org.springframework.oxm.xstream.XStreamMarshaller;
 
 @EnableJms
 @Configuration
-public class JmsConfig {
+public class JmsConfig{
 
     //@Bean
     public MessageConverter jacksonJmsMessageConverter(){
@@ -33,7 +33,7 @@ public class JmsConfig {
     }
     @Bean
     public XStreamMarshaller xmlMarshaller(){
-        return  new XStreamMarshaller();
+        return new XStreamMarshaller();
     }
     @Bean
     public ActiveMQConnectionFactory connectionFactory(){

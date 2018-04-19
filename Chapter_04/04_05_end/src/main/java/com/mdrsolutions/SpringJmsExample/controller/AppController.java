@@ -6,6 +6,8 @@ import com.mdrsolutions.SpringJmsExample.pojos.Book;
 import com.mdrsolutions.SpringJmsExample.pojos.BookOrder;
 import com.mdrsolutions.SpringJmsExample.pojos.Customer;
 import com.mdrsolutions.SpringJmsExample.service.jms.BookOrderService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -18,7 +20,8 @@ import java.util.List;
 
 @Controller
 public class AppController {
-    
+    private static final Logger LOGGER = LoggerFactory.getLogger(AppController.class);
+
     @Autowired
     private BookOrderService bookOrderService;
     
@@ -43,13 +46,15 @@ public class AppController {
         return "index";
     }
     
-    @RequestMapping(path = "/process/order/{orderId}/{customerId}/{bookId}/", method = RequestMethod.GET)
-    public @ResponseBody String processOrder(@PathVariable("orderId") String orderId,
+    @RequestMapping(path = "/process/store/{storeId}/order/{orderId}/{customerId}/{bookId}/", method = RequestMethod.GET)
+    public @ResponseBody String processOrder(@PathVariable("storeId") String storeId,
+                                             @PathVariable("orderId") String orderId,
                                              @PathVariable("customerId") String customerId,
                                              @PathVariable("bookId") String bookId )throws JsonMappingException, JsonParseException, IOException {
         
         try {
-            bookOrderService.send(build(customerId, bookId, orderId));
+            LOGGER.info("StoredId is = {}", storeId);
+            bookOrderService.send(build(customerId, bookId, orderId), storeId, "NEW");
         } catch (Exception exception) {
             return "Error occurred!" + exception.getLocalizedMessage();
         }

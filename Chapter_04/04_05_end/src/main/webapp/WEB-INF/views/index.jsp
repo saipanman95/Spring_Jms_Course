@@ -91,11 +91,12 @@ About
 <script>
 
 function processOrder(){
+var randomStoreId = Math.floor(Math.random() * 100000);
 var randomOrderId = Math.floor(Math.random() * 100000);
 var bookId = $('#bookId').val();
 var customerId = $('#customerId').val();
 //alert(randomOrderId + " - " + customerId + " - " + bookId);
-jQuery.get('${pageContext.request.contextPath}/process/order/'+randomOrderId+'/'+customerId+'/'+bookId+'/',
+jQuery.get('${pageContext.request.contextPath}/process/store/'+randomStoreId+'/order/'+randomOrderId+'/'+customerId+'/'+bookId+'/',
 function(data, status){
 $("#jmsMessageAlert").removeClass('hide');
 $("#jmsMessageAlert span").text(data);

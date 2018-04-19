@@ -66,22 +66,4 @@ public class JmsConfig {
         return factory;
     }
 
-
-    /**
-    @Bean
-    public BookOrderProcessingMessageListener jmsMessageListener(){
-        return new BookOrderProcessingMessageListener();
-    }
-    @Override
-    public void configureJmsListeners(JmsListenerEndpointRegistrar registrar) {
-        SimpleJmsListenerEndpoint endpoint = new SimpleJmsListenerEndpoint();
-        endpoint.setMessageListener(jmsMessageListener());
-        endpoint.setDestination("book.order.processed.queue");
-        endpoint.setId("book-order-processed-queue");
-        endpoint.setConcurrency("1");
-        endpoint.setSubscription("my-subscription");
-        registrar.registerEndpoint(endpoint, jmsListenerContainerFactory());
-        registrar.setContainerFactory(jmsListenerContainerFactory());
-    }
-    */
 }

@@ -44,6 +44,8 @@ import java.util.Properties;
 @Configuration
 public class JmsConfig {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(JmsConfig.class);
+
     @Value("${spring.activemq.broker-url}")
     private String brokerUrl;
 
@@ -55,6 +57,7 @@ public class JmsConfig {
 
     @Bean
     public MessageConverter jacksonJmsMessageConverter() {
+
 
         MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
         converter.setTargetType(MessageType.TEXT);
@@ -81,7 +84,9 @@ public class JmsConfig {
         factory.setConnectionFactory(connectionFactory());
         factory.setMessageConverter(jacksonJmsMessageConverter());
         factory.setTransactionManager(jmsTransactionManager());
-
+        factory.setErrorHandler(t -> {
+            LOGGER.info("Handling error in listening for messages, error: " + t.getMessage());
+        });
         return factory;
     }
 
@@ -89,5 +94,16 @@ public class JmsConfig {
     public PlatformTransactionManager jmsTransactionManager(){
         return new JmsTransactionManager(connectionFactory());
     }
+
+    @Bean
+    public JmsTemplate jmsTemplate(){
+        JmsTemplate jmsTemplate = new JmsTemplate(connectionFactory());
+        jmsTemplate.setMessageConverter(jacksonJmsMessageConverter());
+        jmsTemplate.setDeliveryPersistent(true);
+        jmsTemplate.setSessionTransacted(true);
+        return jmsTemplate;
+
+    }
+
 
 }

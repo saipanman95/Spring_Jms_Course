@@ -30,6 +30,8 @@ public class Application extends SpringBootServletInitializer{
 
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+
+
 		Sender sender = context.getBean(Sender.class);
 
 		System.out.println("Preparing to send a message");
@@ -37,16 +39,10 @@ public class Application extends SpringBootServletInitializer{
 
 	}
 
+	@Bean
 	public ActiveMQConnectionFactory connectionFactory(){
 		ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("admin","admin","tcp://localhost:61616");
 		return factory;
-	}
-
-	@Bean
-	public JmsTemplate jmsTemplate(){
-		JmsTemplate template = new JmsTemplate();
-		template.setConnectionFactory(connectionFactory());
-		return template;
 	}
 
 	@Bean
@@ -55,7 +51,5 @@ public class Application extends SpringBootServletInitializer{
 		factory.setConnectionFactory(connectionFactory());
 		return factory;
 	}
-
-
 
 }

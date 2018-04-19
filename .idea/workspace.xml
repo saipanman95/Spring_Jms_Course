@@ -1,73 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="d3335a46-ad7b-4858-a746-12a2a9a99385" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
   <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../SpringJmsExample01" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../chordpro-parser" value="PREVIEW" />
-        <entry key="$USER_HOME$/NetBeansProjects/chordpro-parser" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_01/01_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_02/02_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_02/02_03_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_03/03_02_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_03/03_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_03/03_04_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_03/03_05_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_03/03_06_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_04/04_01_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_04/04_02_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_04/04_02_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_04/04_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_04/04_04_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_04/04_05_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_05/05_01_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_05/05_02_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_05/05_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_05/05_04_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring_Jms_Course/Chapter_05/05_05_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../alternate/Spring_Jms_Course" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../alternate/Spring_Jms_Course/Chapter_01/01_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../alternate2/Spring_Jms_Course" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../alternate3/Spring_Jms_Course/Chapter_01/01_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../alternate4/Spring_Jms_Course/Chapter_01/01_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_01/01_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_01/01_03_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_01/01_04_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_02/02_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_02/02_03_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_02/02_05_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_02/02_05_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_02_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_02_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_03_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_04_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_04_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_05_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_05_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_06_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_03/03_06_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_01_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_01_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_02_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_02_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_03_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_03_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_04_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_04_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_05_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_04/04_05_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_05/05_01_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_05/05_01_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_05/05_02_begin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_05/05_02_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_05/05_03_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_05/05_04_end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/Chapter_05/05_05_end" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="32" />
-    <option name="width" value="1668" />
-    <option name="height" value="1002" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <option name="y" value="23" />
+    <option name="width" value="1360" />
+    <option name="height" value="741" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -109,75 +111,9 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="d3335a46-ad7b-4858-a746-12a2a9a99385" name="Default" comment="" />
-      <created>1519920143837</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1519920143837</updated>
-    </task>
-    <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="30" y="32" width="1668" height="1002" extended-state="0" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25584257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
   <component name="masterDetails">
     <states>

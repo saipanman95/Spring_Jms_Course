@@ -35,12 +35,12 @@ public class JmsConfig {
     public XStreamMarshaller xmlMarshaller(){
         return  new XStreamMarshaller();
     }
+
     @Bean
     public ActiveMQConnectionFactory connectionFactory(){
         ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("admin","admin","tcp://localhost:61616");
         return factory;
     }
-
 
     @Bean
     public DefaultJmsListenerContainerFactory jmsListenerContainerFactory(){
