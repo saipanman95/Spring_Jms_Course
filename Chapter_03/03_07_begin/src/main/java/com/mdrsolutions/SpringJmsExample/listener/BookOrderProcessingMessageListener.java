@@ -1,4 +1,4 @@
-package com.mdrsolutions.SpringJmsExample.service.jms.listener;
+package com.mdrsolutions.SpringJmsExample.listener;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

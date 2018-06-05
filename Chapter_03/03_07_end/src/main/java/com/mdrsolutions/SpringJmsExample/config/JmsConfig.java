@@ -1,6 +1,6 @@
 package com.mdrsolutions.SpringJmsExample.config;
 
-import com.mdrsolutions.SpringJmsExample.service.jms.listener.BookOrderProcessingMessageListener;
+import com.mdrsolutions.SpringJmsExample.listener.BookOrderProcessingMessageListener;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
