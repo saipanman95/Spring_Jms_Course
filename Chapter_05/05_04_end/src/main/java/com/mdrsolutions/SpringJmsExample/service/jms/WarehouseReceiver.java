@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class WarehouseReceiver {
-    private static final Logger LOGGER = LoggerFactory.getLogger(WarehouseReceiverService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(WarehouseReceiver.class);
 
     @Autowired
     private WarehouseProcessingService warehouseProcessingService;

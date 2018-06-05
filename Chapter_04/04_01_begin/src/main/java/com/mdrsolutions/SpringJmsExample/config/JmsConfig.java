@@ -1,8 +1,7 @@
 package com.mdrsolutions.SpringJmsExample.config;
 
-import com.mdrsolutions.SpringJmsExample.service.jms.listener.BookOrderProcessingMessageListener;
+import com.mdrsolutions.SpringJmsExample.listener.BookOrderProcessingMessageListener;
 import org.apache.activemq.ActiveMQConnectionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.annotation.EnableJms;
@@ -16,8 +15,6 @@ import org.springframework.jms.support.converter.MarshallingMessageConverter;
 import org.springframework.jms.support.converter.MessageConverter;
 import org.springframework.jms.support.converter.MessageType;
 import org.springframework.oxm.xstream.XStreamMarshaller;
-
-import javax.jms.ConnectionFactory;
 
 
 @EnableJms
