@@ -1,5 +1,8 @@
 package com.mdrsolutions.SpringJmsExample.config;
 
+import com.mdrsolutions.SpringJmsExample.pojos.Book;
+import com.mdrsolutions.SpringJmsExample.pojos.BookOrder;
+import com.mdrsolutions.SpringJmsExample.pojos.Customer;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +21,6 @@ public class JmsConfig {
 
     //@Bean
     public MessageConverter jacksonJmsMessageConverter(){
-
         MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
         converter.setTargetType(MessageType.TEXT);
         converter.setTypeIdPropertyName("_type");
@@ -33,7 +35,9 @@ public class JmsConfig {
     }
     @Bean
     public XStreamMarshaller xmlMarshaller(){
-        return  new XStreamMarshaller();
+        XStreamMarshaller marshaller =  new XStreamMarshaller();
+        marshaller.setSupportedClasses(Book.class, Customer.class, BookOrder.class);
+        return marshaller;
     }
 
     @Bean

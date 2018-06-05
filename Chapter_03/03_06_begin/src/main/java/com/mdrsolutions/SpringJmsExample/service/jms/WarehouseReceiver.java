@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class WarehouseReceiver {
-    private static final Logger LOGGER = LoggerFactory.getLogger(WarehouseReceiverService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(WarehouseReceiver.class);
 
     @JmsListener(destination = "book.order.queue")
     public void receive(BookOrder bookOrder){

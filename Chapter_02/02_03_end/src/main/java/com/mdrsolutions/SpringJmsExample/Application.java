@@ -22,9 +22,7 @@ public class Application {
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		Sender sender = context.getBean(Sender.class);
-
-		System.out.println("Preparing to send a message");
-        sender.sendMessage("order-queue", "item: 1234, customer: 1234");
+        sender.sendMessage("order-queue", "Hello");
 	}
 
     public ActiveMQConnectionFactory connectionFactory(){
@@ -34,9 +32,7 @@ public class Application {
 
     @Bean
     public JmsTemplate jmsTemplate(){
-        JmsTemplate template = new JmsTemplate();
-        template.setConnectionFactory(connectionFactory());
-        return template;
+        return new JmsTemplate(connectionFactory());
     }
 
 

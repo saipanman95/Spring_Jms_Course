@@ -21,13 +21,12 @@ public class Application {
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);
-
-		System.out.println("Preparing to send a message");
-		jmsTemplate.convertAndSend("order-queue", "item: 1234, customer: 1234");
+		jmsTemplate.convertAndSend("order-queue", "Hello");
 	}
 
 	@Bean
-	public JmsListenerContainerFactory warehouseFactory(ConnectionFactory factory, DefaultJmsListenerContainerFactoryConfigurer configurer){
+	public JmsListenerContainerFactory warehouseFactory(ConnectionFactory factory,
+														DefaultJmsListenerContainerFactoryConfigurer configurer){
 		DefaultJmsListenerContainerFactory containerFactory = new DefaultJmsListenerContainerFactory();
 		configurer.configure(containerFactory, factory);
 

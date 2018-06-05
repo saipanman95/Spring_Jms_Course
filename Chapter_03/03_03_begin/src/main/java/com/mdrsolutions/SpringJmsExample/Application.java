@@ -31,12 +31,10 @@ public class Application extends SpringBootServletInitializer{
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 
-
 		Sender sender = context.getBean(Sender.class);
 
 		System.out.println("Preparing to send a message");
         sender.sendMessage("order-queue", "item: 1234, customer: 1234");
-
 	}
 
 	@Bean

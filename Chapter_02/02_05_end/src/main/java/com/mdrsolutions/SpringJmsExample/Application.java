@@ -22,10 +22,16 @@ public class Application {
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		Sender sender = context.getBean(Sender.class);
-
-		System.out.println("Preparing to send a message");
-        sender.sendMessage("order-queue", "item: 1234, customer: 1234");
+        sender.sendMessage("order-queue", "Hello");
 	}
+
+    @Bean
+    public JmsListenerContainerFactory warehouseFactory(ConnectionFactory factory, DefaultJmsListenerContainerFactoryConfigurer configurer){
+        DefaultJmsListenerContainerFactory containerFactory configurer =  new DefaultJmsListenerContainerFactory();
+        configurer.configure(containerFactory, factory);
+
+        return containerFactory;
+    }
 
     public ActiveMQConnectionFactory connectionFactory(){
         ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("admin","admin","tcp://localhost:61616");
@@ -34,9 +40,7 @@ public class Application {
 
     @Bean
     public JmsTemplate jmsTemplate(){
-        JmsTemplate template = new JmsTemplate();
-        template.setConnectionFactory(connectionFactory());
-        return template;
+        return new JmsTemplate(connectionFactory());
     }
 
     @Bean

@@ -10,12 +10,12 @@ import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
 @Component
-public class BookOrderProcessingMessageListener implements MessageListener{
+public class BookOrderProcessingMessageListener implements MessageListener {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(BookOrderProcessingMessageListener.class);
 
     @Override
-    public void onMessage(Message message){
+    public void onMessage(Message message) {
         try {
             String text = ((TextMessage) message).getText();
             LOGGER.info(text);

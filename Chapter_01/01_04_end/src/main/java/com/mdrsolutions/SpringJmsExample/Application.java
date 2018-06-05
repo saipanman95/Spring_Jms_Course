@@ -23,7 +23,7 @@ public class Application {
 		JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);
 
 		System.out.println("Preparing to send a message");
-		jmsTemplate.convertAndSend("order-queue", "item: 1234, customer: 1234");
+		jmsTemplate.convertAndSend("order-queue", "Hello");
 	}
 
 	@Bean

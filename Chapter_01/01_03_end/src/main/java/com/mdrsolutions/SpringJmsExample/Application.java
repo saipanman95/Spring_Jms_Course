@@ -22,7 +22,7 @@ public class Application {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);
 
-		jmsTemplate.convertAndSend("order-queue", "item: 1234, customer: 1234");
+		jmsTemplate.convertAndSend("order-queue", "Hello");
 	}
 
 	@Bean
